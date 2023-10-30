@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: blueviolet;
+}
+
+main {
+    margin-top: 1rem;
+}
+.paragrafo {
+    border: 1px solid cyan;
+    color: cornflowerblue;
+    margin-top: 1rem;
+}
+
+#titulo {
+    color: darkgrey;
+    margin-bottom: 1rem;
+}
+
+input [type="password"] {
+    font-size:2rem ;
+}
+
+/* Seletores por descendente */
+.login-form input{
+font-size:2rem;
+color: #f00;
+}
+
+/* Seletor de filhos direitos */
+.login-form>input{
+    color: #0f0;
+    width: 10rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+   background: #00f;
+}
